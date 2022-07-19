@@ -1,6 +1,5 @@
-module csv_to_struct
+module csv
 
-import encoding.csv
 import strconv
 
 pub fn decode<T>(data string) []T {
